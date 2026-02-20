@@ -1,3 +1,10 @@
+## INDEX
+
+[Program - 01 WAP for add, sub, mul and div using Command Line Arguments](#assi-1)
+
+[Program - 02 WAP to perform Single Inheritance](#assi-2)
+
+## assi-1
 ```
 public class C_L_
 {
@@ -32,6 +39,7 @@ public class C_L_
 
 <img width="270" height="119" alt="C_L_Output" src="https://github.com/user-attachments/assets/50291119-76ab-4d80-9a8a-e10c76185f63" />
 
+## assi-2
 ```
 class Vehicle
 {
