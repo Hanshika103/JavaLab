@@ -31,3 +31,40 @@ public class C_L_
 ```
 
 <img width="270" height="119" alt="C_L_Output" src="https://github.com/user-attachments/assets/50291119-76ab-4d80-9a8a-e10c76185f63" />
+
+```
+class Vehicle
+{
+    int wheels;
+    int colour;
+    void Start()
+    {
+        System.out.println("Vehicle Started");
+    }
+    void display()
+    {
+        System.out.println("Vehicle has "+wheels+" wheels and colour code is "+colour);
+    }
+}
+class Car extends Vehicle
+{
+    @Override
+    void Start()
+    {
+        System.out.println("Car Started");
+    }
+}
+ public class MainClass
+{
+    public static void main(String[] args)
+    {
+        
+        Car c = new Car();
+        c.Start();
+        c.wheels = 4;
+        c.colour = 123;
+        c.display();
+    }
+}
+```
+<img width="322" height="69" alt="MainClass_Output" src="https://github.com/user-attachments/assets/abaeac00-80b7-4416-8ba1-d71f0743fe83" />
