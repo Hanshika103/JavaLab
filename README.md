@@ -78,8 +78,11 @@ class Car extends Vehicle
 }
 ```
 <img width="322" height="69" alt="MainClass_Output" src="https://github.com/user-attachments/assets/abaeac00-80b7-4416-8ba1-d71f0743fe83" />
+
 ## assi-3
+
 ```
+
 class Cal {
     void add(int a, int b) {
         System.out.println("Addition is : " + (a + b));
@@ -112,6 +115,7 @@ class Cal1 extends Cal {
 
     }
 }
+
 ```
 <img width="508" height="173" alt="Cal1_output" src="https://github.com/user-attachments/assets/400d11a3-4744-4c2f-b626-bc05fe61358f" />
 
