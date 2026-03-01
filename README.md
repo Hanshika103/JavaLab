@@ -4,6 +4,8 @@
 
 [Program - 02 WAP to perform Single Inheritance](#assi-2)
 
+[Program - 03 Write a Class to perform a Calculator class using single inheritance](#assi-3)
+
 ## assi-1
 ```
 public class C_L_
@@ -76,3 +78,40 @@ class Car extends Vehicle
 }
 ```
 <img width="322" height="69" alt="MainClass_Output" src="https://github.com/user-attachments/assets/abaeac00-80b7-4416-8ba1-d71f0743fe83" />
+## assi-3
+```
+class Cal {
+    void add(int a, int b) {
+        System.out.println("Addition is : " + (a + b));
+    }
+
+    void sub(int a, int b) {
+        System.out.println("Subtraction is : " + (a - b));
+    }
+
+    void mul(int a, int b) {
+        System.out.println("Multiplication is : " + (a * b));
+    }
+
+    void div(int a, int b) {
+        if (b == 0) {
+            System.out.println("Cannot divide by zero");
+        } else {
+            System.out.println("Division is : " + (a / b));
+        }
+    }
+}
+
+class Cal1 extends Cal {
+    public static void main(String[] args) {
+        Cal1 c1 = new Cal1();
+        c1.add(2, 8);
+        c1.sub(7, 2);
+        c1.mul(4, 6);
+        c1.div(10, 5);
+
+    }
+}
+```
+<img width="508" height="173" alt="Cal1_output" src="https://github.com/user-attachments/assets/400d11a3-4744-4c2f-b626-bc05fe61358f" />
+
