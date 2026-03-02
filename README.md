@@ -6,6 +6,8 @@
 
 [Program - 03 Write a Class to perform a Calculator class using single inheritance](#assi-3)
 
+[Program - 04 Write a Class to add two distances which is in form of meter, centimeter and milimeter](#assi-4)
+
 ## assi-1
 ```
 public class C_L_
