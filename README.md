@@ -184,4 +184,6 @@ public class Dis {
     }
 }
 ```
+<img width="489" height="216" alt="Dis_output" src="https://github.com/user-attachments/assets/87d203a8-3fcb-49ed-a36d-108cb2ec8747" />
+
 
