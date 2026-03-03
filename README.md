@@ -8,6 +8,9 @@
 
 [Program - 04 Write a Class to add two distances which is in form of meter, centimeter and milimeter](#assi-4)
 
+[Program - 05 Write a Class to add two times which is in the form of hours, min and second](#assi-5)
+
+
 ## assi-1
 ```
 public class C_L_
@@ -185,5 +188,51 @@ public class Dis {
 }
 ```
 <img width="489" height="216" alt="Dis_output" src="https://github.com/user-attachments/assets/87d203a8-3fcb-49ed-a36d-108cb2ec8747" />
+
+## assi-05
+
+```
+class Time {
+
+    int hr, min, sec;
+
+    // Constructor
+    Time(int h, int m, int s) {
+        hr = h;
+        min = m;
+        sec = s;
+    }
+
+    // Method to add two objects
+    void add(Time t) {
+
+        int totalSec = this.sec + t.sec;
+        int totalMin = this.min + t.min;
+        int totalHr  = this.hr + t.hr;
+
+        // Adjust seconds
+        if (totalSec >= 60) {
+            totalMin = totalMin + 1;
+            totalSec = totalSec - 60;
+        }
+
+        // Adjust minutes
+        if (totalMin >= 60) {
+            totalHr = totalHr + 1;
+            totalMin = totalMin - 60;
+        }
+
+        System.out.println("Total Time = " + totalHr + " : " + totalMin + " : " + totalSec);
+    }
+
+    public static void main(String[] args) {
+
+        Time t1 = new Time(2, 45, 50);
+        Time t2 = new Time(1, 20, 30);
+
+        t1.add(t2);   // Adding two objects
+    }
+}
+```
 
 
