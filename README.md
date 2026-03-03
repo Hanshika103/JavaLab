@@ -234,5 +234,7 @@ class Time {
     }
 }
 ```
+<img width="512" height="153" alt="Time_output" src="https://github.com/user-attachments/assets/8ce5e220-0895-49e2-b802-c175318fb993" />
+
 
 
