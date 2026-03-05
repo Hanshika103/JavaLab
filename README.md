@@ -10,6 +10,9 @@
 
 [Program - 05 Write a Class to add two times which is in the form of hours, min and second](#assi-5)
 
+[Program - 06 Write a Class to perform reverse of 1-D array](#assi-6)
+
+
 
 ## assi-1
 ```
@@ -235,6 +238,44 @@ class Time {
 }
 ```
 <img width="512" height="153" alt="Time_output" src="https://github.com/user-attachments/assets/8ce5e220-0895-49e2-b802-c175318fb993" />
+
+## assi - 06
+```
+class ReverseArray {
+
+    void reverse(int arr[]) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while(start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+
+            start++;
+            end--;
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        int arr[] = {1, 2, 3, 4, 5};
+
+        ReverseArray obj = new ReverseArray();
+        obj.reverse(arr);
+
+        System.out.println("Reversed Array:");
+
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+```
+<img width="526" height="154" alt="Reverse_output" src="https://github.com/user-attachments/assets/47bad1a9-0ec6-4191-8733-c8cfe5e866a8" />
+
 
 
 
