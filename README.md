@@ -12,6 +12,9 @@
 
 [Program - 06 Write a Class to perform reverse of 1-D array](#assi-6)
 
+[Program - 07 Write a Class to perform Transpose of a matrix](#assi-7)
+
+
 
 
 ## assi-1
@@ -275,6 +278,58 @@ public class Main {
 }
 ```
 <img width="526" height="154" alt="Reverse_output" src="https://github.com/user-attachments/assets/47bad1a9-0ec6-4191-8733-c8cfe5e866a8" />
+
+## assi-07
+```
+class TransposeMatrix {
+
+    int matrix[][] = {
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+    };
+
+    void transpose() {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int transpose[][] = new int[cols][rows];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transpose[j][i] = matrix[i][j];
+            }
+        }
+
+        System.out.println("Original Matrix:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("Transpose Matrix:");
+        for (int i = 0; i < cols; i++) {
+            for (int j = 0; j < rows; j++) {
+                System.out.print(transpose[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Transpose {
+    public static void main(String[] args) {
+
+        TransposeMatrix obj = new TransposeMatrix(); // object creation
+        obj.transpose(); // method call
+    }
+}
+```
+
+<img width="526" height="226" alt="Transpose_output" src="https://github.com/user-attachments/assets/aabe7901-f7bd-4451-a811-176b1107e261" />
+
 
 
 
