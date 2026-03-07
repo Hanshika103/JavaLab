@@ -93,7 +93,6 @@ class Car extends Vehicle
 <img width="322" height="69" alt="MainClass_Output" src="https://github.com/user-attachments/assets/abaeac00-80b7-4416-8ba1-d71f0743fe83" />
 
 ## assi-3
-
 ```
 
 class Cal {
@@ -133,7 +132,6 @@ class Cal1 extends Cal {
 <img width="508" height="173" alt="Cal1_output" src="https://github.com/user-attachments/assets/400d11a3-4744-4c2f-b626-bc05fe61358f" />
 
 ## assi-4
-
 ```
 class Distance {
     int meter;
@@ -245,8 +243,6 @@ class Time {
 <img width="512" height="153" alt="Time_output" src="https://github.com/user-attachments/assets/8ce5e220-0895-49e2-b802-c175318fb993" />
 
 ## assi - 06
-
-
 ```
 class ReverseArray {
 
@@ -284,8 +280,6 @@ public class Main {
 <img width="526" height="154" alt="Reverse_output" src="https://github.com/user-attachments/assets/47bad1a9-0ec6-4191-8733-c8cfe5e866a8" />
 
 ## assi-07
-
-
 ```
 class TransposeMatrix {
 
@@ -337,7 +331,6 @@ public class Transpose {
 <img width="526" height="226" alt="Transpose_output" src="https://github.com/user-attachments/assets/aabe7901-f7bd-4451-a811-176b1107e261" />
 
 ## assi-8
-
 ```
 class Matrix {
     int A[][] = {{1,2},{3,4}};
