@@ -377,6 +377,9 @@ public class Main {
 }
 ```
 
+<img width="538" height="166" alt="SumOfMatrix_output" src="https://github.com/user-attachments/assets/ffc3969b-6c2c-4130-9f3d-ae776cfd939f" />
+
+
 
 
 
