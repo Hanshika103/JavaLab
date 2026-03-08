@@ -197,7 +197,7 @@ public class Dis {
 ```
 <img width="489" height="216" alt="Dis_output" src="https://github.com/user-attachments/assets/87d203a8-3fcb-49ed-a36d-108cb2ec8747" />
 
-## assi-05
+## assi-5
 
 ```
 class Time {
@@ -244,7 +244,7 @@ class Time {
 ```
 <img width="512" height="153" alt="Time_output" src="https://github.com/user-attachments/assets/8ce5e220-0895-49e2-b802-c175318fb993" />
 
-## assi - 06
+## assi-6
 ```
 class ReverseArray {
 
@@ -281,7 +281,7 @@ public class Main {
 ```
 <img width="526" height="154" alt="Reverse_output" src="https://github.com/user-attachments/assets/47bad1a9-0ec6-4191-8733-c8cfe5e866a8" />
 
-## assi-07
+## assi-7
 ```
 class TransposeMatrix {
 
@@ -374,7 +374,7 @@ public class Main {
 
 <img width="538" height="166" alt="SumOfMatrix_output" src="https://github.com/user-attachments/assets/ffc3969b-6c2c-4130-9f3d-ae776cfd939f" />
 
-## assi - 09
+## assi-9
 
 ```
 class MatrixMultiplication {
@@ -421,7 +421,7 @@ class MulMatrix {
     }
 }
 ```
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e8404a38-d12b-4151-8f45-a776d6b62ba3" />
+<img width="526" height="152" alt="MulMatrix_output" src="https://github.com/user-attachments/assets/a2f697b9-26a3-4e69-b177-76fe6e673450" />
 
 
 
