@@ -16,6 +16,8 @@
 
 [Program - 08 Write a Class to perform Sum of matrixes](#assi-8)
 
+[Program - 09 Write a Class to perform Multiplication of matrix](#assi-9)
+
 
 
 
@@ -371,6 +373,56 @@ public class Main {
 ```
 
 <img width="538" height="166" alt="SumOfMatrix_output" src="https://github.com/user-attachments/assets/ffc3969b-6c2c-4130-9f3d-ae776cfd939f" />
+
+## assi - 09
+
+```
+class MatrixMultiplication {
+    int a[][] = {
+            { 1, 2, 3 },
+            { 4, 5, 6 }
+    };
+
+    int b[][] = {
+            { 7, 8 },
+            { 9, 10 },
+            { 11, 12 }
+    };
+
+    int c[][] = new int[2][2];
+
+    void multiply() {
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                c[i][j] = 0;
+                for (int k = 0; k < 3; k++) {
+                    c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                }
+            }
+        }
+    }
+
+    void display() {
+        System.out.println("Result Matrix:");
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.print(c[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+class MulMatrix {
+    public static void main(String args[]) {
+        MatrixMultiplication obj = new MatrixMultiplication();
+        obj.multiply();
+        obj.display();
+    }
+}
+```
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e8404a38-d12b-4151-8f45-a776d6b62ba3" />
+
 
 
 
