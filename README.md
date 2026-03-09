@@ -18,6 +18,8 @@
 
 [Program - 09 Write a Class to perform Multiplication of matrix](#assi-9)
 
+[Program - 10 Write a Class to print Sum of Each Rows](#assi-10)
+
 
 
 
