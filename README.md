@@ -453,6 +453,8 @@ class SumOfRow {
 }
 
 ```
+<img width="517" height="153" alt="Untitled" src="https://github.com/user-attachments/assets/abc87af7-ec9a-404d-83a6-e8d610e740d4" />
+
 
 
 
