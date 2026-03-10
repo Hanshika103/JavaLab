@@ -20,6 +20,8 @@
 
 [Program - 10 Write a Class to print Sum of Each Rows](#assi-10)
 
+[Program - 11 Write a Class to print Sum of Each Columns](#assi-11)
+
 
 
 
