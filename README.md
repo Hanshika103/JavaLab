@@ -481,6 +481,8 @@ class SumOfColumn {
 
 }
 ```
+<img width="383" height="149" alt="SumOfColumn_output" src="https://github.com/user-attachments/assets/3576949f-d57a-43e3-9c9d-4755dc53f2e8" />
+
 
 
 
