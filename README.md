@@ -485,6 +485,60 @@ class SumOfColumn {
 ```
 <img width="383" height="149" alt="SumOfColumn_output" src="https://github.com/user-attachments/assets/3576949f-d57a-43e3-9c9d-4755dc53f2e8" />
 
+## assi-12
+
+```
+class Student_Details {
+    String name;
+    int age;
+    int id;
+    static int num_of_students = 0;
+
+    Student_Details()
+    {
+        this("Unknown",0,0);
+    }
+
+    Student_Details(String name)
+    {
+       
+        this(name,0,0);
+    }
+
+    Student_Details(String name, int id)
+    {
+       
+        this(name,id,0);
+    }
+
+    Student_Details(String name,int id , int age)
+    {
+        this.name=name;
+        this.id=id;
+        this.age=age;
+        num_of_students++;
+    }
+
+    void display() {
+        System.out.println("##############################################");
+        System.out.println("Student name : " + this.name);
+        System.out.println("Student id : " + this.id);
+        System.out.println("No. of Students : " + num_of_students);
+    }
+
+    public static void main(String[] args) {
+        Student_Details s1 = new Student_Details();
+        Student_Details s2 = new Student_Details("Hanshika");
+        Student_Details s3 = new Student_Details("Mukati", 203);
+        Student_Details s4 = new Student_Details("Durga", 001, 36);
+        s1.display();
+        s2.display();
+        s3.display();
+        s4.display();
+    }
+}
+```
+
 
 
 
