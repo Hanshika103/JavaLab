@@ -543,7 +543,37 @@ class Student_Details {
 
 <img width="575" height="374" alt="Student_Details_output" src="https://github.com/user-attachments/assets/1a4f4b6d-51dc-4be1-beb9-a7d4c28e6916" />
 
+## assi-13
+```
+class Factorial {
 
+    // Method to calculate factorial
+    long factorial(int n) {
+        if (n < 0) {
+            System.out.println("Factorial is not defined for negative numbers.");
+            return -1;
+        }
+
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+
+        return n * factorial(n - 1);
+    }
+
+    public static void main(String[] args) {
+
+        int number = 5;
+
+        Factorial obj = new Factorial();
+        long result = obj.factorial(number);
+
+        if (result != -1) {
+            System.out.println("Factorial of " + number + " is: " + result);
+        }
+    }
+}
+```
 
 
 
