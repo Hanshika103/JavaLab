@@ -574,6 +574,7 @@ class Factorial {
     }
 }
 ```
+<img width="452" height="106" alt="Factorial_output" src="https://github.com/user-attachments/assets/ae899a97-a3a3-4860-8e7a-3dba953cb446" />
 
 
 
