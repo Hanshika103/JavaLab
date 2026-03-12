@@ -24,6 +24,8 @@
 
 [Program - 12 Write a Java Class to Demonstrate Constructor Chaining in Student Details Class](#assi-12)
 
+[Program - 13 Write a Java Class to print factorial of a number](#assi-13)
+
 
 
 
