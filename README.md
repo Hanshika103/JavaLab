@@ -26,6 +26,9 @@
 
 [Program - 13 Write a Java Class to print factorial of a number](#assi-13)
 
+[Program - 14 Write a Java Class to check palindrome number)[#assi-14)
+
+
 
 
 
@@ -575,6 +578,43 @@ class Factorial {
 }
 ```
 <img width="452" height="106" alt="Factorial_output" src="https://github.com/user-attachments/assets/ae899a97-a3a3-4860-8e7a-3dba953cb446" />
+
+## assi-14
+
+```
+
+class Palindrome
+{
+    int num=0;
+    int num1;
+    void check(int n)
+    {
+         num1=n;
+        while(n>0)
+        {
+            int rem=n%10;
+            num=num*10+rem;
+            n=n/10;
+        }
+        if(num1==num)
+        {
+            System.out.println("Number is Palindrome");
+        }
+        else
+        {
+            System.out.println("Number is Not palindrome");
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        Palindrome p1 = new Palindrome();
+        p1.check(121);
+        p1.check(123);
+    }
+    
+}
+```
 
 
 
