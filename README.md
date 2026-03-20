@@ -26,7 +26,7 @@
 
 [Program - 13 Write a Java Class to print factorial of a number](#assi-13)
 
-[Program - 14 Write a Java Class to check palindrome number)[#assi-14)
+[Program - 14 Write a Java Class to check palindrome number](#assi-14)
 
 
 
