@@ -616,6 +616,9 @@ class Palindrome
 }
 ```
 
+<img width="768" height="614" alt="palindrome_output" src="https://github.com/user-attachments/assets/a8a08937-b1de-45e7-8fde-4ac9f6952e84" />
+
+
 
 
 
