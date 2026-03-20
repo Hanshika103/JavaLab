@@ -28,6 +28,8 @@
 
 [Program - 14 Write a Java Class to check palindrome number](#assi-14)
 
+[Program - 15 Write a Java Class to check armstrong number](#assi-15)
+
 
 
 
@@ -618,6 +620,59 @@ class Palindrome
 
 <img width="768" height="614" alt="palindrome_output" src="https://github.com/user-attachments/assets/a8a08937-b1de-45e7-8fde-4ac9f6952e84" />
 
+## assi-15
+
+```
+
+class Armstrong
+{
+    void check(int n)
+    {
+        int num = n;
+        int num1 = 0;
+
+        int count = 0;
+        while(n > 0)
+        {
+            count++;
+            n = n / 10;
+        }
+
+        n = num;
+
+        while(n > 0)
+        {
+            int rem = n % 10;
+
+            int result = 1;
+            for(int i = 0; i < count; i++)
+            {
+                result = result * rem;
+            }
+
+            num1 = num1 + result;
+            n = n / 10;
+        }
+
+        if(num1 == num)
+        {
+            System.out.println(num + " is Armstrong number");
+        }
+        else
+        {
+            System.out.println(num + " is not Armstrong number");
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        Armstrong a1 = new Armstrong();
+        a1.check(153);
+        a1.check(1634);
+        a1.check(123);
+    }
+}
+```
 
 
 
