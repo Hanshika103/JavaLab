@@ -1,4 +1,4 @@
-import javax.swing.*;
+
 
 /*
  * MAIN CLASS
@@ -11,7 +11,7 @@ public class MainFrame {
 
         // Open different frames (you can comment/uncomment)
         new WordCountFrame();
-        // new PasswordFrame();
-        // new CheckboxFrame();
+        new PasswordFrame();
+        new CheckboxFrame();
     }
 }
