@@ -30,7 +30,7 @@
 
 [Program - 15 Write a Java Class to check armstrong number](#assi-15)
 
-[Program - 16 Write a program using three classes to print 1-100, 1-100, 1-100 with ans without thread and analyse the output and repeate the same program using runnable interface.] (#assi-16)
+[Program - 16 Write a program using three classes to print 1-100, 1-100, 1-100 with ans without thread and analyse the output and repeate the same program using runnable interface.](#assi-16)
 
 [Program - 17  WAC Using the concept of multithreading the output of all three threads must be synchronised (use join method).](#assi-17)
 
