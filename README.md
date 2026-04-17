@@ -30,6 +30,34 @@
 
 [Program - 15 Write a Java Class to check armstrong number](#assi-15)
 
+[Program - 16 Write a program using three classes to print 1-100, 1-100, 1-100 with ans without thread and analyse the output and repeate the same program using runnable interface.] (#assi-16)
+
+[Program - 17  WAC Using the concept of multithreading the output of all three threads must be synchronised (use join method).](#assi-17)
+
+[Prohram - 18 WAC to perform Addition of 2 numbers using swing](#assi-18)
+
+[Program - 19 WAC to make a registration form with 10 elements and send the data into database (use jdbc connectivity)](#assi-19)
+
+[Program - 20 WAC to make one calculator in swing](#assi-20)
+
+[Program - 21 WAC to make matrix addition using swing class](#assi-21)
+
+[Program - 22 WAC Create one jframe apply 10 buttons on that after clicking on each button a new structure is created.(Circle, Oval, Rectangle etc.)](#assi-22)
+
+[Program - 23 WAC just using mouse event create a frame like paint brush with selection of colour and width.](#assi-23)
+
+[Program - 24 WAC create a package of any 5 classes of your choice and import it.](#assi-24)
+
+[Program - 25 WAC create one package import and test it](#assi-25)
+
+[Program - 26 WAC create one small array of size 5 apply array out of bounds exception using try catch give a proper message in catch and demonstrate the exception exactly in the same function demonstrate arithmetic exception.](#assi-26)
+
+[Program - 27 WAC to test the range of age of one student write a program using user defined exception.](#assi-27)
+
+[Program - 28 WAC File Handling Programs ( Read, Write, Stream,Copy etc)](#assi-28)
+
+[Program - 29 WAC WAC Inheritance Programs , using interface and abstract classes.](#assi-29)
+
 
 
 
