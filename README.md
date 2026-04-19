@@ -1140,6 +1140,113 @@ public class Calculator {
 
 <img width="327" height="283" alt="java_lab" src="https://github.com/user-attachments/assets/f1f3d416-ced1-4185-835f-425f3fc803d6" />
 
+## assi-21
+
+```
+import javax.swing.*;
+import java.awt.event.*;
+
+public class MatrixAddition {
+
+    static JFrame f;
+    static JTextField[][] A, B, R;
+
+    public static void main(String[] args) {
+
+        f = new JFrame("Matrix Addition");
+
+        JLabel l1 = new JLabel("Rows:");
+        l1.setBounds(50, 20, 50, 30);
+        JTextField rowsField = new JTextField();
+        rowsField.setBounds(100, 20, 50, 30);
+
+        JLabel l2 = new JLabel("Cols:");
+        l2.setBounds(180, 20, 50, 30);
+        JTextField colsField = new JTextField();
+        colsField.setBounds(230, 20, 50, 30);
+
+        JButton createBtn = new JButton("Create Matrix");
+        createBtn.setBounds(100, 60, 150, 30);
+
+        f.add(l1); f.add(rowsField);
+        f.add(l2); f.add(colsField);
+        f.add(createBtn);
+
+        createBtn.addActionListener(e -> {
+
+            int rows = Integer.parseInt(rowsField.getText());
+            int cols = Integer.parseInt(colsField.getText());
+
+            A = new JTextField[rows][cols];
+            B = new JTextField[rows][cols];
+            R = new JTextField[rows][cols];
+
+            int yOffset = 120;
+
+            // Matrix A
+            int xOffset = 20;
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    A[i][j] = new JTextField();
+                    A[i][j].setBounds(xOffset + j * 50, yOffset + i * 40, 40, 30);
+                    f.add(A[i][j]);
+                }
+            }
+
+            // Matrix B
+            xOffset = 200;
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    B[i][j] = new JTextField();
+                    B[i][j].setBounds(xOffset + j * 50, yOffset + i * 40, 40, 30);
+                    f.add(B[i][j]);
+                }
+            }
+
+            // Result Matrix
+            xOffset = 400;
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    R[i][j] = new JTextField();
+                    R[i][j].setBounds(xOffset + j * 50, yOffset + i * 40, 40, 30);
+                    R[i][j].setEditable(false);
+                    f.add(R[i][j]);
+                }
+            }
+
+            JButton addBtn = new JButton("Add");
+            addBtn.setBounds(250, yOffset + rows * 50, 100, 30);
+
+            addBtn.addActionListener(ev -> {
+                try {
+                    for (int i = 0; i < rows; i++) {
+                        for (int j = 0; j < cols; j++) {
+                            int a = Integer.parseInt(A[i][j].getText());
+                            int b = Integer.parseInt(B[i][j].getText());
+                            R[i][j].setText(String.valueOf(a + b));
+                        }
+                    }
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(f, "Invalid Input!");
+                }
+            });
+
+            f.add(addBtn);
+
+            f.repaint(); // IMPORTANT
+        });
+
+        f.setSize(650, 500);
+        f.setLayout(null);
+        f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}
+```
+<img width="601" height="56" alt="java_lab" src="https://github.com/user-attachments/assets/48c28db5-6a00-4797-a1a6-57923db25e6b" />
+
+
+<img width="621" height="284" alt="java_lab" src="https://github.com/user-attachments/assets/b9a21929-aa42-423e-b87b-8ee5e5142088" />
 
 
 
