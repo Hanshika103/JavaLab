@@ -901,6 +901,11 @@ public class AddSwing {
 
 <img width="387" height="290" alt="java_lab" src="https://github.com/user-attachments/assets/592b25c5-abf8-4202-b173-27f26c96749d" />
 
+## assi-19
+
+```
+
+```
 
 
 
