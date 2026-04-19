@@ -704,7 +704,7 @@ class Armstrong
 
 <img width="483" height="154" alt="image" src="https://github.com/user-attachments/assets/ae7df72a-5ad0-49bf-bb46-edfa84b87ea7" />
 
-##assi-16
+## assi-16
 
 ```
 
@@ -751,6 +751,7 @@ public class WithoutThread {
 }
 ```
 <img width="1009" height="233" alt="java_lab" src="https://github.com/user-attachments/assets/910754e6-b0ea-4426-be7f-67a720ab8be5" />
+
 ```
 class A1 implements Runnable {
     public void run() {
@@ -788,6 +789,7 @@ public class WithThread {
     }
 }
 ```
+
 <img width="1006" height="296" alt="java_lab" src="https://github.com/user-attachments/assets/6e66c7d1-9d85-4ce8-9051-47a8a9edebfe" />
 
 
