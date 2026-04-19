@@ -1248,6 +1248,100 @@ public class MatrixAddition {
 
 <img width="621" height="284" alt="java_lab" src="https://github.com/user-attachments/assets/b9a21929-aa42-423e-b87b-8ee5e5142088" />
 
+## assi-22
+
+```
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class ShapesGUI extends JPanel implements ActionListener {
+
+    String shape = "";
+
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame("Shapes");
+
+        ShapesGUI panel = new ShapesGUI();
+        panel.setLayout(null);
+
+        String[] buttons = { "Circle", "Oval", "Rectangle", "Square",
+                "Line", "Triangle", "Arc", "RoundRect",
+                "Ellipse", "Clear" };
+
+        int x = 20;
+
+        for (String text : buttons) {
+            JButton btn = new JButton(text);
+            btn.setBounds(x, 20, 100, 30);
+            btn.addActionListener(panel);
+            panel.add(btn);
+            x += 110;
+        }
+
+        f.add(panel);
+        f.setSize(1200, 600);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        shape = e.getActionCommand();
+        repaint();
+    }
+
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        if (shape.equals("Circle")) {
+            g.drawOval(200, 100, 100, 100);
+        }
+
+        else if (shape.equals("Oval")) {
+            g.drawOval(200, 100, 150, 100);
+        }
+
+        else if (shape.equals("Rectangle")) {
+            g.drawRect(200, 100, 150, 100);
+        }
+
+        else if (shape.equals("Square")) {
+            g.drawRect(200, 100, 100, 100);
+        }
+
+        else if (shape.equals("Line")) {
+            g.drawLine(200, 100, 350, 200);
+        }
+
+        else if (shape.equals("Triangle")) {
+            int x[] = { 250, 200, 300 };
+            int y[] = { 100, 200, 200 };
+            g.drawPolygon(x, y, 3);
+        }
+
+        else if (shape.equals("Arc")) {
+            g.drawArc(200, 100, 150, 100, 0, 180);
+        }
+
+        else if (shape.equals("RoundRect")) {
+            g.drawRoundRect(200, 100, 150, 100, 30, 30);
+        }
+
+        else if (shape.equals("Ellipse")) {
+            g.drawOval(200, 100, 200, 100);
+        }
+
+        else if (shape.equals("Clear")) {
+            shape = "";
+            repaint();
+        }
+    }
+}
+```
+<img width="1130" height="255" alt="java_lab" src="https://github.com/user-attachments/assets/f301fdd1-dbad-4871-976c-019a11177098" />
+
+<img width="593" height="70" alt="java_lab" src="https://github.com/user-attachments/assets/3040657f-969f-4b18-a412-c04272c289e4" />
 
 
 
