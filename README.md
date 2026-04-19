@@ -792,6 +792,116 @@ public class WithThread {
 
 <img width="1006" height="296" alt="java_lab" src="https://github.com/user-attachments/assets/6e66c7d1-9d85-4ce8-9051-47a8a9edebfe" />
 
+## assi-17
+
+```
+class A2 extends Thread {
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("A: " + i);
+        }
+    }
+}
+
+class B2 extends Thread {
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("B: " + i );
+        }
+    }
+}
+
+class C2 extends Thread {
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("C: " + i);
+        }
+    }
+}
+
+public class ThreadWithSynchronization {
+    public static void main(String[] args) {
+        A2 t1 = new A2();
+        B2 t2 = new B2();
+        C2 t3 = new C2();
+
+        try {
+            t1.start();
+            t1.join(); // wait for t1 to finish
+
+            t2.start();
+            t2.join(); // wait for t2 to finish
+
+            t3.start();
+            t3.join(); // wait for t3 to finish
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+
+<img width="664" height="349" alt="java_lab" src="https://github.com/user-attachments/assets/82d28d21-be2b-489c-baa3-063678928253" />
+
+## assi-18
+
+```
+import javax.swing.*;
+import java.awt.event.*;
+
+public class AddSwing {
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame("Addition Program");
+
+        JLabel l1 = new JLabel("Enter First Number:");
+        l1.setBounds(50, 50, 150, 30);
+
+        JTextField t1 = new JTextField();
+        t1.setBounds(200, 50, 150, 30);
+
+        JLabel l2 = new JLabel("Enter Second Number:");
+        l2.setBounds(50, 100, 150, 30);
+
+        JTextField t2 = new JTextField();
+        t2.setBounds(200, 100, 150, 30);
+
+        JButton btn = new JButton("Add");
+        btn.setBounds(150, 150, 100, 30);
+
+        JLabel result = new JLabel("Result:");
+        result.setBounds(50, 200, 300, 30);
+
+        // Button Action
+        btn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                int num1 = Integer.parseInt(t1.getText());
+                int num2 = Integer.parseInt(t2.getText());
+                int sum = num1 + num2;
+
+                result.setText("Result: " + sum);
+            }
+        });
+
+        f.add(l1);
+        f.add(t1);
+        f.add(l2);
+        f.add(t2);
+        f.add(btn);
+        f.add(result);
+
+        f.setSize(400, 300);
+        f.setLayout(null);
+        f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}
+
+```
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dfbcc8c3-dee7-4c94-956c-2f86a1d41936" />
+
+
+
 
 
 
