@@ -1047,6 +1047,98 @@ public class RegistrationForm {
 
 <img width="1315" height="149" alt="java_lab" src="https://github.com/user-attachments/assets/5055ca91-e88b-499a-b3d8-af9faefac641" />
 
+## assi-20
+
+```
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Calculator {
+
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame("Calculator");
+
+        JLabel l1 = new JLabel("First Number:");
+        l1.setBounds(50, 30, 120, 30);
+
+        JTextField t1 = new JTextField();
+        t1.setBounds(180, 30, 120, 30);
+
+        JLabel l2 = new JLabel("Second Number:");
+        l2.setBounds(50, 70, 120, 30);
+
+        JTextField t2 = new JTextField();
+        t2.setBounds(180, 70, 120, 30);
+
+        JButton add = new JButton("+");
+        add.setBounds(50, 120, 50, 40);
+
+        JButton sub = new JButton("-");
+        sub.setBounds(110, 120, 50, 40);
+
+        JButton mul = new JButton("*");
+        mul.setBounds(170, 120, 50, 40);
+
+        JButton div = new JButton("/");
+        div.setBounds(230, 120, 50, 40);
+
+        JLabel result = new JLabel("Result:");
+        result.setBounds(50, 180, 200, 30);
+
+        // ADD
+        add.addActionListener(e -> {
+            int a = Integer.parseInt(t1.getText());
+            int b = Integer.parseInt(t2.getText());
+            result.setText("Result: " + (a + b));
+        });
+
+        // SUBTRACT
+        sub.addActionListener(e -> {
+            int a = Integer.parseInt(t1.getText());
+            int b = Integer.parseInt(t2.getText());
+            result.setText("Result: " + (a - b));
+        });
+
+        // MULTIPLY
+        mul.addActionListener(e -> {
+            int a = Integer.parseInt(t1.getText());
+            int b = Integer.parseInt(t2.getText());
+            result.setText("Result: " + (a * b));
+        });
+
+        // DIVIDE
+        div.addActionListener(e -> {
+            int a = Integer.parseInt(t1.getText());
+            int b = Integer.parseInt(t2.getText());
+
+            if (b == 0) {
+                result.setText("Cannot divide by zero");
+            } else {
+                result.setText("Result: " + (a / b));
+            }
+        });
+
+        f.add(l1);
+        f.add(t1);
+        f.add(l2);
+        f.add(t2);
+        f.add(add);
+        f.add(sub);
+        f.add(mul);
+        f.add(div);
+        f.add(result);
+
+        f.setSize(350, 300);
+        f.setLayout(null);
+        f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}
+```
+<img width="595" height="53" alt="java_lab" src="https://github.com/user-attachments/assets/9a487c0d-a29d-4b07-a140-f029e97d4dc1" />
+
+<img width="327" height="283" alt="java_lab" src="https://github.com/user-attachments/assets/f1f3d416-ced1-4185-835f-425f3fc803d6" />
 
 
 
