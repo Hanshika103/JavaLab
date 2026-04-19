@@ -1339,9 +1339,9 @@ public class ShapesGUI extends JPanel implements ActionListener {
     }
 }
 ```
-<img width="1130" height="255" alt="java_lab" src="https://github.com/user-attachments/assets/f301fdd1-dbad-4871-976c-019a11177098" />
+<img width="593" height="70" alt="java_lab" src="https://github.com/user-attachments/assets/c75d520f-07b3-4a40-9dc2-1f109653a637" />
 
-<img width="593" height="70" alt="java_lab" src="https://github.com/user-attachments/assets/3040657f-969f-4b18-a412-c04272c289e4" />
+<img width="1130" height="255" alt="java_lab" src="https://github.com/user-attachments/assets/f301fdd1-dbad-4871-976c-019a11177098" />
 
 
 
