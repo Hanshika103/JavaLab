@@ -704,9 +704,94 @@ class Armstrong
 
 <img width="483" height="154" alt="image" src="https://github.com/user-attachments/assets/ae7df72a-5ad0-49bf-bb46-edfa84b87ea7" />
 
-##assi-28
+##assi-16
 
 ```
+
+class A {
+    void print() {
+        System.out.print("A : ");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i+ " ");
+        }
+        System.out.println();
+    }
+}
+
+class B {
+    void print() {
+        System.out.print("B: ");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i+ " ");
+        }
+        System.out.println();
+    }
+}
+
+class C {
+    void print() {
+        System.out.print("C : ");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+public class WithoutThread {
+    public static void main(String[] args) {
+        A obj1 = new A();
+        B obj2 = new B();
+        C obj3 = new C();
+
+        obj1.print();
+        obj2.print();
+        obj3.print();
+    }
+}
+```
+<img width="1009" height="233" alt="java_lab" src="https://github.com/user-attachments/assets/910754e6-b0ea-4426-be7f-67a720ab8be5" />
+```
+class A1 implements Runnable {
+    public void run() {
+        for (int i = 1; i <= 100; i++) {
+            System.out.print("A: " + i + " ");
+        }
+    }
+}
+
+class B1 implements Runnable {
+    public void run() {
+        for (int i = 1; i <= 100; i++) {
+            System.out.print("B: " + i + " ");
+        }
+    }
+}
+
+class C1 implements Runnable {
+    public void run() {
+        for (int i = 1; i <= 100; i++) {
+            System.out.print("C: " + i + " ");
+        }
+    }
+}
+
+public class WithThread {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(new A1());
+        Thread t2 = new Thread(new B1());
+        Thread t3 = new Thread(new C1());
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+```
+<img width="1006" height="296" alt="java_lab" src="https://github.com/user-attachments/assets/6e66c7d1-9d85-4ce8-9051-47a8a9edebfe" />
+
+
+
 
 
 
