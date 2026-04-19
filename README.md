@@ -898,7 +898,8 @@ public class AddSwing {
 }
 
 ```
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dfbcc8c3-dee7-4c94-956c-2f86a1d41936" />
+
+<img width="387" height="290" alt="java_lab" src="https://github.com/user-attachments/assets/592b25c5-abf8-4202-b173-27f26c96749d" />
 
 
 
