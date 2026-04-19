@@ -904,8 +904,149 @@ public class AddSwing {
 ## assi-19
 
 ```
+import javax.swing.*;
+import java.awt.event.*;
+import java.sql.*;
 
+public class RegistrationForm {
+
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame("Registration Form");
+
+        JLabel l1 = new JLabel("Name:");
+        l1.setBounds(50, 30, 100, 30);
+        JTextField t1 = new JTextField();
+        t1.setBounds(150, 30, 150, 30);
+
+        JLabel l2 = new JLabel("Email:");
+        l2.setBounds(50, 70, 100, 30);
+        JTextField t2 = new JTextField();
+        t2.setBounds(150, 70, 150, 30);
+
+        JLabel l3 = new JLabel("Password:");
+        l3.setBounds(50, 110, 100, 30);
+        JPasswordField t3 = new JPasswordField();
+        t3.setBounds(150, 110, 150, 30);
+
+        JLabel l4 = new JLabel("Gender:");
+        l4.setBounds(50, 150, 100, 30);
+        JRadioButton r1 = new JRadioButton("Male");
+        JRadioButton r2 = new JRadioButton("Female");
+        r1.setBounds(150, 150, 70, 30);
+        r2.setBounds(220, 150, 80, 30);
+
+        ButtonGroup bg = new ButtonGroup();
+        bg.add(r1);
+        bg.add(r2);
+
+        JLabel l5 = new JLabel("Course:");
+        l5.setBounds(50, 190, 100, 30);
+        JTextField t5 = new JTextField();
+        t5.setBounds(150, 190, 150, 30);
+
+        JLabel l6 = new JLabel("Address:");
+        l6.setBounds(50, 230, 100, 30);
+        JTextField t6 = new JTextField();
+        t6.setBounds(150, 230, 150, 30);
+
+        JLabel l7 = new JLabel("Phone:");
+        l7.setBounds(50, 270, 100, 30);
+        JTextField t7 = new JTextField();
+        t7.setBounds(150, 270, 150, 30);
+
+        JLabel l8 = new JLabel("City:");
+        l8.setBounds(50, 310, 100, 30);
+        JTextField t8 = new JTextField();
+        t8.setBounds(150, 310, 150, 30);
+
+        JLabel l9 = new JLabel("State:");
+        l9.setBounds(50, 350, 100, 30);
+        JTextField t9 = new JTextField();
+        t9.setBounds(150, 350, 150, 30);
+
+        JButton btn = new JButton("Submit");
+        btn.setBounds(150, 400, 100, 30);
+
+        // Button Action
+        btn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    String name = t1.getText();
+                    String email = t2.getText();
+                    String password = t3.getText();
+                    String gender = r1.isSelected() ? "Male" : "Female";
+                    String course = t5.getText();
+                    String address = t6.getText();
+                    String phone = t7.getText();
+                    String city = t8.getText();
+                    String state = t9.getText();
+
+                    // JDBC Connection
+                    Class.forName("com.mysql.cj.jdbc.Driver");
+                    Connection con = DriverManager.getConnection(
+                            "jdbc:mysql://localhost:3306/studentdb", "root", "1111@Han1111");
+
+                    String query = "INSERT INTO registration(name,email,password,gender,course,address,phone,city,state) VALUES(?,?,?,?,?,?,?,?,?)";
+
+                    PreparedStatement pst = con.prepareStatement(query);
+                    pst.setString(1, name);
+                    pst.setString(2, email);
+                    pst.setString(3, password);
+                    pst.setString(4, gender);
+                    pst.setString(5, course);
+                    pst.setString(6, address);
+                    pst.setString(7, phone);
+                    pst.setString(8, city);
+                    pst.setString(9, state);
+
+                    pst.executeUpdate();
+
+                    JOptionPane.showMessageDialog(f, "Data Inserted Successfully!");
+
+                    con.close();
+                } catch (Exception ex) {
+                    System.out.println(ex);
+                }
+            }
+        });
+
+        f.add(l1);
+        f.add(t1);
+        f.add(l2);
+        f.add(t2);
+        f.add(l3);
+        f.add(t3);
+        f.add(l4);
+        f.add(r1);
+        f.add(r2);
+        f.add(l5);
+        f.add(t5);
+        f.add(l6);
+        f.add(t6);
+        f.add(l7);
+        f.add(t7);
+        f.add(l8);
+        f.add(t8);
+        f.add(l9);
+        f.add(t9);
+        f.add(btn);
+
+        f.setSize(400, 500);
+        f.setLayout(null);
+        f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+}
 ```
+<img width="887" height="91" alt="java_lab" src="https://github.com/user-attachments/assets/cb0ab295-d3af-4446-b075-40ec2748332e" />
+
+<img width="380" height="466" alt="java_lab" src="https://github.com/user-attachments/assets/e5b044eb-c0b7-45c3-a0cb-815404de4dc7" />
+
+<img width="379" height="464" alt="java_lab" src="https://github.com/user-attachments/assets/9fac599d-1be1-4f6e-bb75-fac87dafb482" />
+
+<img width="1315" height="149" alt="java_lab" src="https://github.com/user-attachments/assets/5055ca91-e88b-499a-b3d8-af9faefac641" />
+
 
 
 
