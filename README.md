@@ -1343,6 +1343,100 @@ public class ShapesGUI extends JPanel implements ActionListener {
 
 <img width="1130" height="255" alt="java_lab" src="https://github.com/user-attachments/assets/f301fdd1-dbad-4871-976c-019a11177098" />
 
+## assi-23
+
+```
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class PaintBrush extends JPanel implements MouseMotionListener, ActionListener {
+
+    int x = -1, y = -1;
+    Color currentColor = Color.BLACK;
+    int brushSize = 5;
+
+    public PaintBrush() {
+        addMouseMotionListener(this);
+    }
+
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame("Paint Brush");
+
+        PaintBrush panel = new PaintBrush();
+        panel.setLayout(null);
+
+        // Color buttons
+        JButton red = new JButton("Red");
+        red.setBounds(20, 20, 80, 30);
+
+        JButton blue = new JButton("Blue");
+        blue.setBounds(110, 20, 80, 30);
+
+        JButton green = new JButton("Green");
+        green.setBounds(200, 20, 80, 30);
+
+        // Brush size
+        JLabel sizeLabel = new JLabel("Size:");
+        sizeLabel.setBounds(300, 20, 40, 30);
+
+        JTextField sizeField = new JTextField("5");
+        sizeField.setBounds(340, 20, 50, 30);
+
+        JButton setSize = new JButton("Set");
+        setSize.setBounds(400, 20, 60, 30);
+
+        // Add listeners
+        red.addActionListener(panel);
+        blue.addActionListener(panel);
+        green.addActionListener(panel);
+        setSize.addActionListener(e -> {
+            try {
+                panel.brushSize = Integer.parseInt(sizeField.getText());
+            } catch (Exception ex) {
+                JOptionPane.showMessageDialog(f, "Invalid size!");
+            }
+        });
+
+        panel.add(red);
+        panel.add(blue);
+        panel.add(green);
+        panel.add(sizeLabel);
+        panel.add(sizeField);
+        panel.add(setSize);
+
+        f.add(panel);
+        f.setSize(800, 600);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setVisible(true);
+    }
+
+    // Mouse Drag Drawing
+    public void mouseDragged(MouseEvent e) {
+        Graphics g = getGraphics();
+        g.setColor(currentColor);
+        g.fillOval(e.getX(), e.getY(), brushSize, brushSize);
+    }
+
+    public void mouseMoved(MouseEvent e) {
+    }
+
+    // Button Actions
+    public void actionPerformed(ActionEvent e) {
+        String cmd = e.getActionCommand();
+
+        if (cmd.equals("Red")) {
+            currentColor = Color.RED;
+        } else if (cmd.equals("Blue")) {
+            currentColor = Color.BLUE;
+        } else if (cmd.equals("Green")) {
+            currentColor = Color.GREEN;
+        }
+    }
+}
+```
+<img width="773" height="489" alt="java_lab" src="https://github.com/user-attachments/assets/16e4bc4c-ea21-4625-925b-7844a6d25341" />
 
 
 
