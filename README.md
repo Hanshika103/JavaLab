@@ -1549,6 +1549,8 @@ public class ExceptionDemo {
     }
 }
 ```
+<img width="611" height="74" alt="java_lab" src="https://github.com/user-attachments/assets/e8c57e8d-4616-40fd-a9e4-e109e55acfae" />
+
 ## assi-27
 
 ```
@@ -1583,6 +1585,9 @@ public class AgeTest {
     }
 }
 ```
+
+<img width="571" height="94" alt="java_lab" src="https://github.com/user-attachments/assets/431b3565-49a3-4117-8ca6-50c02d61de02" />
+
 ## assi-28
 
 ```
@@ -1626,6 +1631,10 @@ public class FileHandlingDemo {
     }
 }
 ```
+<img width="626" height="108" alt="java_lab" src="https://github.com/user-attachments/assets/e5f00c87-f766-431d-acf0-d5def32c8eb9" />
+
+<img width="880" height="197" alt="java_lab" src="https://github.com/user-attachments/assets/8016898d-5ee5-484c-b0c4-a352318aebb7" />
+
 
 ## assi-29
 
@@ -1664,6 +1673,8 @@ public class TestInheritance {
     }
 }
 ```
+<img width="664" height="141" alt="java_lab" src="https://github.com/user-attachments/assets/c131ab25-40d1-4dc2-bb4a-7f9a8a1d58ea" />
+
 
 
 
