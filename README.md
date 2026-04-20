@@ -1438,7 +1438,72 @@ public class PaintBrush extends JPanel implements MouseMotionListener, ActionLis
 ```
 <img width="773" height="489" alt="java_lab" src="https://github.com/user-attachments/assets/16e4bc4c-ea21-4625-925b-7844a6d25341" />
 
+## assi-24
 
+```
+// File: mypack/ClassA.java
+package mypack;
+public class ClassA {
+    public void show() {
+        System.out.println("This is Class A");
+    }
+}
+```
+```
+// File: mypack/ClassB.java
+package mypack;
+public class ClassB {
+    public void show() {
+        System.out.println("This is Class B");
+    }
+}
+```
+```
+// File: mypack/ClassC.java
+package mypack;
+public class ClassC {
+    public void show() {
+        System.out.println("This is Class C");
+    }
+}
+```
+```
+// File: mypack/ClassD.java
+package mypack;
+public class ClassD {
+    public void show() {
+        System.out.println("This is Class D");
+    }
+}
+```
+```
+// File: mypack/ClassE.java
+package mypack;
+public class ClassE {
+    public void show() {
+        System.out.println("This is Class E");
+    }
+}
+```
+```
+import mypack.*;
+
+public class TestPackage {
+    public static void main(String[] args) {
+        ClassA a = new ClassA();
+        ClassB b = new ClassB();
+        ClassC c = new ClassC();
+        ClassD d = new ClassD();
+        ClassE e = new ClassE();
+
+        a.show();
+        b.show();
+        c.show();
+        d.show();
+        e.show();
+    }
+}
+```
 
 
 
