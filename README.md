@@ -1504,8 +1504,166 @@ public class TestPackage {
     }
 }
 ```
+## assi-25
 
+```
+// File: mypack/Message.java
+package mypack;
 
+public class Message {
+    public void display() {
+        System.out.println("Hello from package!");
+    }
+}
+```
+```
+// Main class
+import mypack.Message;
+
+public class Test {
+    public static void main(String[] args) {
+        Message obj = new Message();
+        obj.display();
+    }
+}
+```
+## assi-26
+
+```
+public class ExceptionDemo {
+    public static void main(String[] args) {
+        try {
+            int arr[] = new int[5];
+
+            // Array Index Exception
+            arr[10] = 50;
+
+            // Arithmetic Exception
+            int x = 10 / 0;
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Out of Bounds Exception occurred!");
+        } catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception: Cannot divide by zero!");
+        }
+    }
+}
+```
+## assi-27
+
+```
+import java.util.Scanner;
+
+// Custom Exception
+class InvalidAgeException extends Exception {
+    public InvalidAgeException(String msg) {
+        super(msg);
+    }
+}
+
+public class AgeTest {
+    static void checkAge(int age) throws InvalidAgeException {
+        if (age < 18 || age > 60) {
+            throw new InvalidAgeException("Age is not in valid range (18-60)");
+        } else {
+            System.out.println("Valid Age!");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter age: ");
+        int age = sc.nextInt();
+
+        try {
+            checkAge(age);
+        } catch (InvalidAgeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+```
+## assi-28
+
+```
+import java.io.*;
+
+public class FileHandlingDemo {
+    public static void main(String[] args) {
+
+        try {
+            // Write
+            FileWriter fw = new FileWriter("file1.txt");
+            fw.write("Hello Java File Handling!");
+            fw.close();
+
+            // Read
+            FileReader fr = new FileReader("file1.txt");
+            int ch;
+            System.out.println("Reading file:");
+            while ((ch = fr.read()) != -1) {
+                System.out.print((char) ch);
+            }
+            fr.close();
+
+            // Copy
+            FileInputStream fis = new FileInputStream("file1.txt");
+            FileOutputStream fos = new FileOutputStream("file2.txt");
+
+            int data;
+            while ((data = fis.read()) != -1) {
+                fos.write(data);
+            }
+
+            fis.close();
+            fos.close();
+
+            System.out.println("\nFile copied successfully!");
+
+        } catch (IOException e) {
+            System.out.println("File Error: " + e);
+        }
+    }
+}
+```
+
+## assi-29
+
+```
+// Abstract class
+abstract class Animal {
+    abstract void sound();
+
+    void eat() {
+        System.out.println("Animal eats food");
+    }
+}
+
+// Interface
+interface Pet {
+    void play();
+}
+
+// Child class
+class Dog extends Animal implements Pet {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+
+    public void play() {
+        System.out.println("Dog plays");
+    }
+}
+
+public class TestInheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+        d.eat();
+        d.play();
+    }
+}
+```
 
 
 
