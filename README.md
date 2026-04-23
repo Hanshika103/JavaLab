@@ -1,60 +1,82 @@
 # Java Programs Index
 
-## INDEX
+## Basic Programs
 
-### Basic Programs
+[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](#assi-01)
 
-[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](##assi-01)
-* **Program - 02:** WAP to demonstrate Single Inheritance
-* **Program - 03:** Write a class to perform calculator operations using single inheritance
-* **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter
-* **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds
+[ **Program - 02:** WAP to demonstrate Single Inheritance.](#assi-02)
 
-### Array & Matrix Programs
+[ **Program - 03:** Write a class to perform calculator operations using single inheritance.](#assi-03)
 
-* **Program - 06:** Write a class to reverse a 1-D array
-* **Program - 07:** Write a class to perform transpose of a matrix
-* **Program - 08:** Write a class to perform sum of matrices
-* **Program - 09:** Write a class to perform multiplication of matrices
-* **Program - 10:** Write a class to print sum of each row
-* **Program - 11:** Write a class to print sum of each column
+[ **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter.](#assi-04)
 
-### Core Java Concepts
-
-* **Program - 12:** Write a Java class to demonstrate constructor chaining in a Student Details class
-* **Program - 13:** Write a Java class to print factorial of a number
-* **Program - 14:** Write a Java class to check whether a number is palindrome
-* **Program - 15:** Write a Java class to check whether a number is an Armstrong number
-
-### Multithreading
-
-* **Program - 16:** Write a program using three classes to print 1–100, 1–100, 1–100 with and without threads, analyze the output, and repeat using Runnable interface
-* **Program - 17:** WAC using multithreading such that output of all three threads is synchronized (use join method)
-
-### Swing Programs
-
-* **Program - 18:** WAC to perform addition of two numbers using Swing
-* **Program - 19:** WAC to create a registration form with 10 elements and store data into database (JDBC)
-* **Program - 20:** WAC to create a calculator using Swing
-* **Program - 21:** WAC to perform matrix addition using Swing
-* **Program - 22:** WAC to create a JFrame with 10 buttons where each button creates a shape (Circle, Oval, Rectangle, etc.)
-* **Program - 23:** WAC to create a paint brush-like frame using mouse events with color and width selection
-
-### Packages & Exception Handling
-
-* **Program - 24:** WAC to create a package of any 5 classes and import it
-* **Program - 25:** WAC to create a package, import it, and test it
-* **Program - 26:** WAC to demonstrate ArrayIndexOutOfBoundsException and ArithmeticException using try-catch
-
-### Advanced Topics
-
-* **Program - 27:** WAC to validate student age using user-defined exception
-* **Program - 28:** WAC for file handling (Read, Write, Stream, Copy, etc.)
-* **Program - 29:** WAC for inheritance programs using interfaces and abstract classes
-
----
+[ **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds.](#assi-05)
 
 
+## Array & Matrix Programs
+
+[ **Program - 06:** Write a class to reverse a 1-D array.](#assi-06)
+
+[ **Program - 07:** Write a class to perform transpose of a matrix.](#assi-07)
+
+[ **Program - 08:** Write a class to perform sum of matrices.](#assi-08)
+
+[ **Program - 09:** Write a class to perform multiplication of matrices.](#assi-09)
+
+[ **Program - 10:** Write a class to print sum of each row.](#assi-10)
+
+[ **Program - 11:** Write a class to print sum of each column.](#assi-11)
+
+
+## Core Java Concepts
+
+[ **Program - 12:** Write a Java class to demonstrate constructor chaining in a Student Details class.](#assi-12)
+
+[ **Program - 13:** Write a Java class to print factorial of a number.](#assi-13)
+
+[ **Program - 14:** Write a Java class to check whether a number is palindrome.](#assi-14)
+
+[ **Program - 15:** Write a Java class to check whether a number is an Armstrong number.](#assi-15)
+
+
+## Multithreading
+
+[ **Program - 16:** Write a program using three classes to print 1–100, 1–100, 1–100 with and without threads, analyze the output, and repeat using Runnable interface.](#assi-16)
+
+[ **Program - 17:** WAC using multithreading such that output of all three threads is synchronized (use join method).](#assi-17)
+
+
+## Swing Programs
+
+[ **Program - 18:** WAC to perform addition of two numbers using Swing.](#assi-18)
+
+[ **Program - 19:** WAC to create a registration form with 10 elements and store data into database (JDBC).](#assi-19)
+
+[ **Program - 20:** WAC to create a calculator using Swing.](#assi-20)
+
+[ **Program - 21:** WAC to perform matrix addition using Swing.](#assi-21)
+
+[ **Program - 22:** WAC to create a JFrame with 10 buttons where each button creates a shape (Circle, Oval, Rectangle, etc.).](#assi-22)
+
+[ **Program - 23:** WAC to create a paint brush-like frame using mouse events with color and width selection.](#assi-23)
+
+
+## Packages & Exception Handling
+
+[ **Program - 24:** WAC to create a package of any 5 classes and import it.](#assi-24)
+
+[ **Program - 25:** WAC to create a package, import it, and test it.](#assi-25)
+
+[ **Program - 26:** WAC to demonstrate ArrayIndexOutOfBoundsException and ArithmeticException using try-catch.](#assi-26)
+
+
+## Advanced Topics
+
+[ **Program - 27:** WAC to validate student age using a user-defined exception.](#assi-27)
+
+[ **Program - 28:** WAC for file handling programs (Read, Write, Stream, Copy, etc.).](#assi-28)
+
+[ **Program - 29:** WAC for inheritance programs using interfaces and abstract classes.](#assi-29)
 
 
 
