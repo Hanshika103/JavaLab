@@ -2,26 +2,26 @@
 
 ## Basic Programs
 
-[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](#assi-01)
+[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](#assi-1)
 
-[ **Program - 02:** WAP to demonstrate Single Inheritance.](#assi-02)
+[ **Program - 02:** WAP to demonstrate Single Inheritance.](#assi-2)
 
-[ **Program - 03:** Write a class to perform calculator operations using single inheritance.](#assi-03)
+[ **Program - 03:** Write a class to perform calculator operations using single inheritance.](#assi-3)
 
-[ **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter.](#assi-04)
+[ **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter.](#assi-4)
 
-[ **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds.](#assi-05)
+[ **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds.](#assi-5)
 
 
 ## Array & Matrix Programs
 
-[ **Program - 06:** Write a class to reverse a 1-D array.](#assi-06)
+[ **Program - 06:** Write a class to reverse a 1-D array.](#assi-6)
 
-[ **Program - 07:** Write a class to perform transpose of a matrix.](#assi-07)
+[ **Program - 07:** Write a class to perform transpose of a matrix.](#assi-7)
 
-[ **Program - 08:** Write a class to perform sum of matrices.](#assi-08)
+[ **Program - 08:** Write a class to perform sum of matrices.](#assi-8)
 
-[ **Program - 09:** Write a class to perform multiplication of matrices.](#assi-09)
+[ **Program - 09:** Write a class to perform multiplication of matrices.](#assi-9)
 
 [ **Program - 10:** Write a class to print sum of each row.](#assi-10)
 
