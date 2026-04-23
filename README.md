@@ -2,85 +2,85 @@
 
 ## Basic Programs
 
-[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](#Assiment-1)
+[ **Program - 01:** WAP to perform addition, subtraction, multiplication, and division using Command Line Arguments.](#Assignment-1)
 
-[ **Program - 02:** WAP to demonstrate Single Inheritance.](#Assiment-2)
+[ **Program - 02:** WAP to demonstrate Single Inheritance.](#Assignment-2)
 
-[ **Program - 03:** Write a class to perform calculator operations using single inheritance.](#Assiment-3)
+[ **Program - 03:** Write a class to perform calculator operations using single inheritance.](#Assignment-3)
 
-[ **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter.](#Assiment-4)
+[ **Program - 04:** Write a class to add two distances in the form of meter, centimeter, and millimeter.](#Assignment-4)
 
-[ **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds.](#Assiment-5)
+[ **Program - 05:** Write a class to add two times in the form of hours, minutes, and seconds.](#Assignment-5)
 
 
 ## Array & Matrix Programs
 
-[ **Program - 06:** Write a class to reverse a 1-D array.](#Assiment-6)
+[ **Program - 06:** Write a class to reverse a 1-D array.](#Assignment-6)
 
-[ **Program - 07:** Write a class to perform transpose of a matrix.](#Assiment-7)
+[ **Program - 07:** Write a class to perform transpose of a matrix.](#Assignment-7)
 
-[ **Program - 08:** Write a class to perform sum of matrices.](#Assiment-8)
+[ **Program - 08:** Write a class to perform sum of matrices.](#Assignment-8)
 
-[ **Program - 09:** Write a class to perform multiplication of matrices.](#Assiment-9)
+[ **Program - 09:** Write a class to perform multiplication of matrices.](#Assignment-9)
 
-[ **Program - 10:** Write a class to print sum of each row.](#Assiment-10)
+[ **Program - 10:** Write a class to print sum of each row.](#Assignment-10)
 
-[ **Program - 11:** Write a class to print sum of each column.](#Assiment-11)
+[ **Program - 11:** Write a class to print sum of each column.](#Assignment-11)
 
 
 ## Core Java Concepts
 
-[ **Program - 12:** Write a Java class to demonstrate constructor chaining in a Student Details class.](#Assiment-12)
+[ **Program - 12:** Write a Java class to demonstrate constructor chaining in a Student Details class.](#Assignment-12)
 
-[ **Program - 13:** Write a Java class to print factorial of a number.](#Assiment-13)
+[ **Program - 13:** Write a Java class to print factorial of a number.](#Assignment-13)
 
-[ **Program - 14:** Write a Java class to check whether a number is palindrome.](#Assiment-14)
+[ **Program - 14:** Write a Java class to check whether a number is palindrome.](#Assignment-14)
 
-[ **Program - 15:** Write a Java class to check whether a number is an Armstrong number.](#Assiment-15)
+[ **Program - 15:** Write a Java class to check whether a number is an Armstrong number.](#Assignment-15)
 
 
 ## Multithreading
 
-[ **Program - 16:** Write a program using three classes to print 1–100, 1–100, 1–100 with and without threads, analyze the output, and repeat using Runnable interface.](#Assiment-16)
+[ **Program - 16:** Write a program using three classes to print 1–100, 1–100, 1–100 with and without threads, analyze the output, and repeat using Runnable interface.](#Assignment-16)
 
-[ **Program - 17:** WAC using multithreading such that output of all three threads is synchronized (use join method).](#Assiment-17)
+[ **Program - 17:** WAC using multithreading such that output of all three threads is synchronized (use join method).](#Assignment-17)
 
 
 ## Swing Programs
 
-[ **Program - 18:** WAC to perform addition of two numbers using Swing.](#Assiment-18)
+[ **Program - 18:** WAC to perform addition of two numbers using Swing.](#Assignment-18)
 
-[ **Program - 19:** WAC to create a registration form with 10 elements and store data into database (JDBC).](#Assiment-19)
+[ **Program - 19:** WAC to create a registration form with 10 elements and store data into database (JDBC).](#Assignment-19)
 
-[ **Program - 20:** WAC to create a calculator using Swing.](#Assiment-20)
+[ **Program - 20:** WAC to create a calculator using Swing.](#Assignment-20)
 
-[ **Program - 21:** WAC to perform matrix addition using Swing.](#Assiment-21)
+[ **Program - 21:** WAC to perform matrix addition using Swing.](#Assignment-21)
 
-[ **Program - 22:** WAC to create a JFrame with 10 buttons where each button creates a shape (Circle, Oval, Rectangle, etc.).](#Assiment-22)
+[ **Program - 22:** WAC to create a JFrame with 10 buttons where each button creates a shape (Circle, Oval, Rectangle, etc.).](#Assignment-22)
 
-[ **Program - 23:** WAC to create a paint brush-like frame using mouse events with color and width selection.](#Assiment-23)
+[ **Program - 23:** WAC to create a paint brush-like frame using mouse events with color and width selection.](#Assignment-23)
 
 
 ## Packages & Exception Handling
 
-[ **Program - 24:** WAC to create a package of any 5 classes and import it.](#Assiment-24)
+[ **Program - 24:** WAC to create a package of any 5 classes and import it.](#Assignment-24)
 
-[ **Program - 25:** WAC to create a package, import it, and test it.](#Assiment-25)
+[ **Program - 25:** WAC to create a package, import it, and test it.](#Assignment-25)
 
-[ **Program - 26:** WAC to demonstrate ArrayIndexOutOfBoundsException and ArithmeticException using try-catch.](#Assiment-26)
+[ **Program - 26:** WAC to demonstrate ArrayIndexOutOfBoundsException and ArithmeticException using try-catch.](#Assignment-26)
 
 
 ## Advanced Topics
 
-[ **Program - 27:** WAC to validate student age using a user-defined exception.](#Assiment-27)
+[ **Program - 27:** WAC to validate student age using a user-defined exception.](#Assignment-27)
 
-[ **Program - 28:** WAC for file handling programs (Read, Write, Stream, Copy, etc.).](#Assiment-28)
+[ **Program - 28:** WAC for file handling programs (Read, Write, Stream, Copy, etc.).](#Assignment-28)
 
-[ **Program - 29:** WAC for inheritance programs using interfaces and abstract classes.](#Assiment-29)
+[ **Program - 29:** WAC for inheritance programs using interfaces and abstract classes.](#Assignment-29)
 
 
 
-## assi-1
+## Assiment
 ```
 public class C_L_
 {
