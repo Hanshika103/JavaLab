@@ -1460,8 +1460,8 @@ public class PaintBrush extends JPanel implements MouseMotionListener, ActionLis
 
 ```
 // File: mypack/ClassA.java
-package mypack;
-public class ClassA {
+package mypackage;
+public class A {
     public void show() {
         System.out.println("This is Class A");
     }
@@ -1469,8 +1469,8 @@ public class ClassA {
 ```
 ```
 // File: mypack/ClassB.java
-package mypack;
-public class ClassB {
+package mypackage;
+public class B {
     public void show() {
         System.out.println("This is Class B");
     }
@@ -1478,8 +1478,8 @@ public class ClassB {
 ```
 ```
 // File: mypack/ClassC.java
-package mypack;
-public class ClassC {
+package otherpackage;
+public class C {
     public void show() {
         System.out.println("This is Class C");
     }
@@ -1487,7 +1487,7 @@ public class ClassC {
 ```
 ```
 // File: mypack/ClassD.java
-package mypack;
+package otherpackage;
 public class ClassD {
     public void show() {
         System.out.println("This is Class D");
@@ -1496,7 +1496,7 @@ public class ClassD {
 ```
 ```
 // File: mypack/ClassE.java
-package mypack;
+package mypackage;
 public class ClassE {
     public void show() {
         System.out.println("This is Class E");
@@ -1504,7 +1504,8 @@ public class ClassE {
 }
 ```
 ```
-import mypack.*;
+import mypackage.*;
+import otherpackage.*;
 
 public class TestPackage {
     public static void main(String[] args) {
@@ -1522,6 +1523,8 @@ public class TestPackage {
     }
 }
 ```
+<img width="918" height="327" alt="java_lab" src="https://github.com/user-attachments/assets/635aec8e-4309-47ee-b651-791a8df0ad89" />
+
 ## assi-25
 
 ```
