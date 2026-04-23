@@ -79,8 +79,7 @@
 [ **Program - 29:** WAC for inheritance programs using interfaces and abstract classes.](#Assignment-29)
 
 
-
-## Assiment
+## Assignment-1
 ```
 public class C_L_
 {
@@ -115,7 +114,7 @@ public class C_L_
 
 <img width="270" height="119" alt="C_L_Output" src="https://github.com/user-attachments/assets/50291119-76ab-4d80-9a8a-e10c76185f63" />
 
-## assi-2
+## Assignment-2
 ```
 class Vehicle
 {
@@ -153,7 +152,7 @@ class Car extends Vehicle
 ```
 <img width="322" height="69" alt="MainClass_Output" src="https://github.com/user-attachments/assets/abaeac00-80b7-4416-8ba1-d71f0743fe83" />
 
-## assi-3
+## Assignment-3
 ```
 
 class Cal {
@@ -192,7 +191,7 @@ class Cal1 extends Cal {
 ```
 <img width="508" height="173" alt="Cal1_output" src="https://github.com/user-attachments/assets/400d11a3-4744-4c2f-b626-bc05fe61358f" />
 
-## assi-4
+## Assignment-4
 ```
 class Distance {
     int meter;
@@ -256,7 +255,7 @@ public class Dis {
 ```
 <img width="489" height="216" alt="Dis_output" src="https://github.com/user-attachments/assets/87d203a8-3fcb-49ed-a36d-108cb2ec8747" />
 
-## assi-5
+## Assignment-5
 
 ```
 class Time {
@@ -303,7 +302,7 @@ class Time {
 ```
 <img width="512" height="153" alt="Time_output" src="https://github.com/user-attachments/assets/8ce5e220-0895-49e2-b802-c175318fb993" />
 
-## assi-6
+## Assignment-6
 ```
 class ReverseArray {
 
@@ -340,7 +339,7 @@ public class Main {
 ```
 <img width="526" height="154" alt="Reverse_output" src="https://github.com/user-attachments/assets/47bad1a9-0ec6-4191-8733-c8cfe5e866a8" />
 
-## assi-7
+## Assignment-7
 ```
 class TransposeMatrix {
 
@@ -391,7 +390,7 @@ public class Transpose {
 
 <img width="526" height="226" alt="Transpose_output" src="https://github.com/user-attachments/assets/aabe7901-f7bd-4451-a811-176b1107e261" />
 
-## assi-8
+## Assignment-8
 ```
 class Matrix {
     int A[][] = {{1,2},{3,4}};
@@ -433,7 +432,7 @@ public class Main {
 
 <img width="538" height="166" alt="SumOfMatrix_output" src="https://github.com/user-attachments/assets/ffc3969b-6c2c-4130-9f3d-ae776cfd939f" />
 
-## assi-9
+## Assignment-9
 
 ```
 class MatrixMultiplication {
@@ -482,7 +481,7 @@ class MulMatrix {
 ```
 <img width="526" height="152" alt="MulMatrix_output" src="https://github.com/user-attachments/assets/a2f697b9-26a3-4e69-b177-76fe6e673450" />
 
-## assi-10
+## Assignment-10
 ```
 class SumOfRow {
 
@@ -512,7 +511,7 @@ class SumOfRow {
 ```
 <img width="517" height="153" alt="Untitled" src="https://github.com/user-attachments/assets/abc87af7-ec9a-404d-83a6-e8d610e740d4" />
 
-## assi-11
+## Assignment-11
 ```
 class SumOfColumn {
     int[][] a = { { 1, 2, 3 },
@@ -538,7 +537,7 @@ class SumOfColumn {
 ```
 <img width="383" height="149" alt="SumOfColumn_output" src="https://github.com/user-attachments/assets/3576949f-d57a-43e3-9c9d-4755dc53f2e8" />
 
-## assi-12
+## Assignment-12
 
 ```
 class Student_Details {
@@ -594,7 +593,7 @@ class Student_Details {
 
 <img width="575" height="374" alt="Student_Details_output" src="https://github.com/user-attachments/assets/1a4f4b6d-51dc-4be1-beb9-a7d4c28e6916" />
 
-## assi-13
+## Assignment-13
 ```
 class Factorial {
 
@@ -627,7 +626,7 @@ class Factorial {
 ```
 <img width="452" height="106" alt="Factorial_output" src="https://github.com/user-attachments/assets/ae899a97-a3a3-4860-8e7a-3dba953cb446" />
 
-## assi-14
+## Assignment-14
 
 ```
 
@@ -666,7 +665,7 @@ class Palindrome
 
 <img width="768" height="614" alt="palindrome_output" src="https://github.com/user-attachments/assets/a8a08937-b1de-45e7-8fde-4ac9f6952e84" />
 
-## assi-15
+## Assignment-15
 
 ```
 
@@ -722,7 +721,7 @@ class Armstrong
 
 <img width="483" height="154" alt="image" src="https://github.com/user-attachments/assets/ae7df72a-5ad0-49bf-bb46-edfa84b87ea7" />
 
-## assi-16
+## Assignment-16
 
 ```
 
@@ -810,7 +809,7 @@ public class WithThread {
 
 <img width="1006" height="296" alt="java_lab" src="https://github.com/user-attachments/assets/6e66c7d1-9d85-4ce8-9051-47a8a9edebfe" />
 
-## assi-17
+## Assignment-17
 
 ```
 class A2 extends Thread {
@@ -861,7 +860,7 @@ public class ThreadWithSynchronization {
 
 <img width="664" height="349" alt="java_lab" src="https://github.com/user-attachments/assets/82d28d21-be2b-489c-baa3-063678928253" />
 
-## assi-18
+## Assignment-18
 
 ```
 import javax.swing.*;
@@ -919,7 +918,7 @@ public class AddSwing {
 
 <img width="387" height="290" alt="java_lab" src="https://github.com/user-attachments/assets/592b25c5-abf8-4202-b173-27f26c96749d" />
 
-## assi-19
+## Assignment-19
 
 ```
 import javax.swing.*;
@@ -1065,7 +1064,7 @@ public class RegistrationForm {
 
 <img width="1315" height="149" alt="java_lab" src="https://github.com/user-attachments/assets/5055ca91-e88b-499a-b3d8-af9faefac641" />
 
-## assi-20
+## Assignment-20
 
 ```
 import javax.swing.*;
@@ -1158,7 +1157,7 @@ public class Calculator {
 
 <img width="327" height="283" alt="java_lab" src="https://github.com/user-attachments/assets/f1f3d416-ced1-4185-835f-425f3fc803d6" />
 
-## assi-21
+## Assignment-21
 
 ```
 import javax.swing.*;
@@ -1266,7 +1265,7 @@ public class MatrixAddition {
 
 <img width="621" height="284" alt="java_lab" src="https://github.com/user-attachments/assets/b9a21929-aa42-423e-b87b-8ee5e5142088" />
 
-## assi-22
+## Assignment-22
 
 ```
 import javax.swing.*;
@@ -1361,7 +1360,7 @@ public class ShapesGUI extends JPanel implements ActionListener {
 
 <img width="1130" height="255" alt="java_lab" src="https://github.com/user-attachments/assets/f301fdd1-dbad-4871-976c-019a11177098" />
 
-## assi-23
+## Assignment-23
 
 ```
 import javax.swing.*;
@@ -1456,7 +1455,7 @@ public class PaintBrush extends JPanel implements MouseMotionListener, ActionLis
 ```
 <img width="773" height="489" alt="java_lab" src="https://github.com/user-attachments/assets/16e4bc4c-ea21-4625-925b-7844a6d25341" />
 
-## assi-24
+## Assignment-24
 
 ```
 // File: mypack/ClassA.java
@@ -1525,7 +1524,7 @@ public class TestPackage {
 ```
 <img width="918" height="327" alt="java_lab" src="https://github.com/user-attachments/assets/635aec8e-4309-47ee-b651-791a8df0ad89" />
 
-## assi-25
+## Assignment-25
 
 ```
 // File: mypack/Message.java
@@ -1548,7 +1547,7 @@ public class Test {
     }
 }
 ```
-## assi-26
+## Assignment-26
 
 ```
 public class ExceptionDemo {
@@ -1572,7 +1571,7 @@ public class ExceptionDemo {
 ```
 <img width="611" height="74" alt="java_lab" src="https://github.com/user-attachments/assets/e8c57e8d-4616-40fd-a9e4-e109e55acfae" />
 
-## assi-27
+## Assignment-27
 
 ```
 import java.util.Scanner;
@@ -1609,7 +1608,7 @@ public class AgeTest {
 
 <img width="571" height="94" alt="java_lab" src="https://github.com/user-attachments/assets/431b3565-49a3-4117-8ca6-50c02d61de02" />
 
-## assi-28
+## Assignment-28
 
 ```
 import java.io.*;
@@ -1657,7 +1656,7 @@ public class FileHandlingDemo {
 <img width="880" height="197" alt="java_lab" src="https://github.com/user-attachments/assets/8016898d-5ee5-484c-b0c4-a352318aebb7" />
 
 
-## assi-29
+## Assignment-29
 
 ```
 // Abstract class
